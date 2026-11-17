@@ -1,0 +1,144 @@
+
+.egypt-page {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fffdf8;
+}
+
+/* TÍTULOS */
+
+.egypt-title {
+    text-align: center;
+    color: #79572d;
+    font-size: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.egypt-description {
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    color: #77654c;
+    margin-bottom: 10px;
+}
+
+.egypt-calendar-title {
+    text-align: center;
+    color: #79572d;
+    font-size: 24px;
+    margin: 50px 0 12px;
+    font-style: italic;
+}
+
+/* TABELAS */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.egypt-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #a78a58;
+    background: #fff;
+}
+
+.egypt-table th,
+.egypt-table td {
+    border: 1px solid #b9a47e;
+    padding: 6px 8px;
+    font-size: 14px;
+}
+
+.egypt-table th {
+    background: #e9dcc2;
+    color: #624827;
+    text-align: center;
+    font-weight: bold;
+}
+
+.egypt-table tbody tr:nth-child(odd) {
+    background: #f6f0e4;
+}
+
+.egypt-table td:first-child {
+    white-space: nowrap;
+}
+
+.egypt-table td {
+    line-height: 1.4;
+}
+
+/* CALENDÁRIO */
+
+.calendar-table th:first-child {
+    min-width: 150px;
+}
+
+.calendar-table td:first-child {
+    text-align: center;
+    font-style: italic;
+}
+
+.calendar-table td:not(:first-child) {
+    min-width: 120px;
+}
+
+/* CORES DAS DATAS */
+
+.green {
+    background: #35d65b;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+.yellow {
+    background: #fff000;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+.red {
+    background: #ff3939;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+/* OBSERVAÇÕES */
+
+.egypt-observation {
+    margin-top: 10px;
+    color: #66543d;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.egypt-observation p {
+    margin: 5px 0;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+    .egypt-page {
+        padding: 10px;
+    }
+
+    .egypt-table {
+        min-width: 650px;
+    }
+
+    .egypt-title {
+        font-size: 18px;
+    }
+
+    .egypt-calendar-title {
+        font-size: 20px;
+    }
+}
